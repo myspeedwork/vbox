@@ -1,11 +1,6 @@
 {
     "name": "speedwork/homestead",
     "description": "A virtual machine for Speedwork.",
-    "require": {
-        "php": ">=5.5.9",
-        "symfony/console": "~2.3|~3.0",
-        "symfony/process": "~2.3|~3.0"
-    },
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +8,11 @@
             "email": "sankar.suda@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/console": "~2.3|~3.0",
+        "symfony/process": "~2.3|~3.0"
+    },
     "autoload": {
         "psr-4": {
             "Speedwork\\Homestead\\": "src/"
